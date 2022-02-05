@@ -1,0 +1,109 @@
+h1{ 
+    font-family: 'Fredericka the Great', cursive, Arial, Helvetica, sans-serif;
+    color:#435058;
+    font-size:70px ;
+}
+h2{
+    font-size:55px;
+}
+h3{
+    font-family: 'Fredericka the Great', cursive, Arial, Helvetica, sans-serif;
+    font-size:40px;
+    color:#576490;
+    
+}
+h3 a{
+    color:#848C8E;
+    text-decoration:none;
+}
+h3 a:hover{
+    color:#A3BCF9;
+}
+ body{
+     background-color:#F1F2EE;
+     padding:30px;
+ }
+ 
+ ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: table;
+    
+}
+.linklist{
+    font-size: larger;
+    background-color: #99E1D9;
+    display: table-cell;
+    text-align: center;
+    border-style: solid;
+    border-color:#99E1D9;
+    font-size: 25px;
+    text-decoration:none;
+
+}
+.linklist a{
+    text-decoration: none;
+    color:#F0F7F4;
+}
+.linklist a:hover{
+    color:#435058;
+    text-decoration:none;
+    font-size:28px;
+}
+.linklist:hover{
+    background-color:#F1F2EE;
+    color:#32292F;
+    
+}
+#bio{
+    color:#32292F;
+    font-family:'Courier New', Courier, monospace;
+    float:left;
+    font-size:18px;
+    width:40%;
+    margin-top:-20px;
+   box-shadow: rgba(119, 150, 203, 0.4) -5px 5px, rgba(119, 150, 203, 0.3) -10px 10px, rgba(119, 150, 203, 0.2) -15px 15px, rgba(119, 150, 203, 0.1) -20px 20px, rgba(119, 150, 203, 0.05) -25px 25px;
+    
+}
+main{
+    margin-top:0;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.gallery{
+    
+    padding: 10px;
+    display:flex;
+    flex-direction:row-reverse;
+    justify-content:space-around;
+    clear:both;
+    
+}
+.gallery div{
+    border-width: 10px;
+    border-style: solid;
+     border-image: 
+    linear-gradient(
+      to bottom, 
+      rgba(119, 150, 203), 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+    background-color: #848C8E;
+    width:350px;
+    height:350px;
+    text-align:center;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+#Human{
+    border-style:solid;
+    border-bottom-width:10px;
+    border-right-width:10px;
+    border-top-width:2px;
+    border-left-width:2px;
+    border-color:#BFB7B6;
+
+}
